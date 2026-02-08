@@ -8,7 +8,7 @@ instances = ec2.create_instances(
     MaxCount=1,
     InstanceType='t3.micro',
     KeyName='my-keypair-name',
-    SecurityGroupIds=['sg-xxxxxxxx'],
+    #SecurityGroupIds=['sg-xxxxxxxx'],
     BlockDeviceMappings=[
         {
             'DeviceName': '/dev/sda1',
