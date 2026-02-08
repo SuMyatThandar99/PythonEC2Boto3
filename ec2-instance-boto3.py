@@ -56,15 +56,15 @@ for instance in instances:
 
    
    
-import boto3
+# import boto3
 
 # Create an ec2 client
 
-ec2 = boto3.client('ec2')
+#ec2 = boto3.client('ec2')
 
 # Stop the instance
-instance_id = 'i-03d6aea1ba1e292c3'
+#instance_id = 'i-03d6aea1ba1e292c3'
 
-ec2.stop_instances(InstanceIds=[instance_id])
+#ec2.stop_instances(InstanceIds=[instance_id])
 
-print(f'Stopped the instance {instance_id}')
+#print(f'Stopped the instance {instance_id}')
