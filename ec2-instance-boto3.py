@@ -5,7 +5,6 @@ instances = ec2_resource.create_instances(
     MinCount = 1,
     MaxCount = 1,
     InstanceType = 't3.micro',
-    KeyName = 'nodejskey',
     BlockDeviceMappings = [
         {
             'DeviceName': '/dev/sda1',
