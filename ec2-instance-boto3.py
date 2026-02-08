@@ -4,7 +4,7 @@ instances = ec2_resource.create_instances(
     ImageId = 'ami-06cce67a5893f85f9',
     MinCount = 1,
     MaxCount = 1,
-    InstanceType = 't2.micro',
+    InstanceType = 't3.micro',
     KeyName = 'nodejskey',
     BlockDeviceMappings = [
         {
