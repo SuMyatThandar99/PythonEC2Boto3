@@ -1,7 +1,7 @@
 import boto3
 ec2_resource = boto3.resource('ec2')
 instances = ec2_resource.create_instances(
-    ImageId = 'ami-09b0a86a2c84101e1',
+    ImageId = 'ami-06cce67a5893f85f9',
     MinCount = 1,
     MaxCount = 1,
     InstanceType = 't2.micro',
