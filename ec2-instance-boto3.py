@@ -51,8 +51,8 @@ instances = ec2_resource.create_instances(
 )
 
 # Print instance details
-for instance in instances:
-    print(f'Instance {instance.id} launched with a 20GB volume and HTTP server.')
+#for instance in instances:
+ #   print(f'Instance {instance.id} launched with a 20GB volume and HTTP server.')
 
    
    
